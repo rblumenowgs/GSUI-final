@@ -12,9 +12,9 @@ from functions import *
 # Create an instance of the app 
 gsui = MultiPage()
 
-ico = Functions.set_svg_icon('GSLogoico.jpg')
+# ico = Functions.set_svg_icon('GSLogoico.jpg')
 
-image=Image.open(ico)
+image=Image.open('GSLogoico.jpg')
 
 st.set_page_config(layout="wide",page_title='Globalstratos UI', page_icon=image)
 
