@@ -272,7 +272,7 @@ class MultiPage:
                 pass
             with clm3:
                 # image1 = Functions.set_svg_image('GSlogo.jpg')
-                image2 = Image.open('GSlogo.jpg')
+                image2 = Image.open('GSLogo.jpg')
                 st.image(image2, width=283)
             with clm4:
                 pass
