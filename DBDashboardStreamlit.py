@@ -22,7 +22,7 @@ import os
 from PIL import Image
 
 import pandas as pd
-from pandasgui import show
+# from pandasgui import show
 
 import plotly.graph_objects as go
 
@@ -242,7 +242,7 @@ def dbrd():
             moresitedetails2 = st.button("Let me analyze and compare sites")
             if moresitedetails2 == True:
                 selectedsite = pd.read_sql_query('SELECT * FROM public.siteproductioninfo',conn)
-                gui=show(selectedsite)
+                # gui=show(selectedsite)
             
         with clmn2:
             pass
@@ -252,10 +252,12 @@ def dbrd():
             moresiteinfo = st.button("More information on sites")
 
             if morepeopleinfo == True:
-                gui1 = show(identity)
+                # gui1 = show(identity)
+                pass
 
             if moresiteinfo == True:
-                gui2 = show(sites)
+                # gui2 = show(sites)
+                pass
 
     with overviewmap:
 
