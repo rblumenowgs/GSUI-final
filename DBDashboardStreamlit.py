@@ -22,7 +22,7 @@ import os
 from PIL import Image
 
 import pandas as pd
-from pandasgui import show
+# from pandasgui import show
 
 import plotly.graph_objects as go
 
@@ -252,11 +252,13 @@ def dbrd():
             moresiteinfo = st.button("More information on sites")
 
             if morepeopleinfo == True:
-                gui1 = show(identity)
+                # gui1 = show(identity)
+                pass
 
             if moresiteinfo == True:
-                gui2 = show(sites)
-                
+                # gui2 = show(sites)
+                pass
+
     with overviewmap:
 
         col = st.expander("More geographic information, including maps with site markers", expanded=False)
