@@ -235,7 +235,7 @@ class MultiPage:
             content:'Copyright (c) Globalstratos 2021';
             display:block;
             position:relative;
-            color:dark-green;
+            color:green;
             padding:5px;
             top:3px;
         }
