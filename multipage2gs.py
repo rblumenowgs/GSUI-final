@@ -226,6 +226,24 @@ class MultiPage:
 
         footercontent = '''Copyright (c) Globalstratos 2021'''
 
+        customize_footer = """
+        <style>
+        footer{
+            visibility:visible;
+        }
+        footer:after{
+            content:'Copyright (c) Globalstratos 2021';
+            display:block;
+            position:relative;
+            color:tomato;
+            padding:5px;
+            top:3px;
+        }
+        </style>
+        """
+
+        st.markdown(customize_footer, unsafe_allow_html=True)
+
         ### HIDING HAMBURGER MENU
         
         # hide_streamlit_style = """
