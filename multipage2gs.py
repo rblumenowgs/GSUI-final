@@ -229,7 +229,7 @@ class MultiPage:
         customize_footer = """
         <style>
         footer{
-            visibility:visible;
+            visibility:hidden;
         }
         footer:after{
             content:'Copyright (c) Globalstratos 2021';
