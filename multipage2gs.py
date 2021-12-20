@@ -231,7 +231,7 @@ class MultiPage:
         footer{
             visibility:visible;
         }
-        footer:before{
+        footer:after{
             content:'Copyright (c) Globalstratos 2021';
             display:block;
             position:relative;
